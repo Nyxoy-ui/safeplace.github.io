@@ -1,0 +1,27 @@
+{
+  "name": "SafePlace Books",
+  "short_name": "SP Books",
+  "description": "Eine deutschsprachige PWA zum Schreiben, Lesen und Beantworten interaktiver Bücher.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#111827",
+  "lang": "de-DE",
+  "categories": ["books", "education", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%238b5cf6'/%3E%3Cpath d='M45 52c20-10 38-10 51 2 13-12 31-12 51-2v86c-20-9-38-9-51 3-13-12-31-12-51-3V52z' fill='white'/%3E%3Cpath d='M96 54v87' stroke='%238b5cf6' stroke-width='8'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%238b5cf6'/%3E%3Cpath d='M120 138c53-27 101-27 136 5 35-32 83-32 136-5v230c-53-25-101-25-136 8-35-33-83-33-136-8V138z' fill='white'/%3E%3Cpath d='M256 143v233' stroke='%238b5cf6' stroke-width='20'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
