@@ -1,4 +1,4 @@
-const CACHE_NAME = 'safeplace-books-v3';
+const CACHE_NAME = 'safeplace-books-v1';
 const APP_SHELL = [
   './',
   './index.html',

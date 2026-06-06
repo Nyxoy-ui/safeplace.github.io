@@ -8,7 +8,7 @@ SafePlace Books ist eine vollständig statische Progressive Web App (PWA) zum Sc
 - Einrichtungsassistent beim ersten Start zum Anlegen des Main-Admin-Logins.
 - Lokale Bibliothek mit Buchkarten, Cover, Beschreibung, Suchfunktion, Favoriten, zuletzt gelesenen Büchern und Fortschritt.
 - Lesemodus mit gespeicherten Antworten direkt an den Fragen im Buchtext.
-- Schreibeditor für alle angemeldeten Nutzer sowie Admins: Bücher, Kapitel, Seiten, Absätze, Fragen direkt zwischen Textabsätzen und Veröffentlichung eigener Bücher.
+- Autoreneditor für Bücher, Kapitel, Seiten, Absätze und Fragen direkt zwischen Textabsätzen.
 - Zwischenspeichern von Büchern, Antworten, Fortschritt, Favoriten und Logins im Browser über `localStorage`.
 - Offline-Nutzung über `service-worker.js` und Web-App-Manifest.
 - Dunkles Design mit optionalem hellem Modus.
@@ -74,9 +74,6 @@ Hinweis: iOS installiert PWAs über Safari. Andere iOS-Browser können die Insta
 ### User / Leser
 
 - Bücher lesen.
-- Eigene Bücher schreiben und zwischenspeichern.
-- Kapitel, Seiten, Absätze und Fragen im Text anlegen.
-- Eigene Entwürfe veröffentlichen, damit sie in der Bibliothek sichtbar werden.
 - Fragen direkt im Buch beantworten.
 - Antworten lokal speichern.
 - Lesefortschritt speichern und später weiterlesen.
@@ -86,7 +83,7 @@ Neue Leser können über die User-Login-Karte lokal registriert werden.
 
 ### Admin / Autor
 
-- Eigene Bücher erstellen, bearbeiten und veröffentlichen.
+- Bücher erstellen und bearbeiten.
 - Kapitel und Seiten hinzufügen.
 - Texte zwischenspeichern.
 - Schriftart und Schriftgröße pro Buch ändern.
@@ -111,7 +108,7 @@ Beim ersten Start wird automatisch das Beispielbuch **„Das Haus zwischen den S
 - mehrere Seiten,
 - Fragen direkt zwischen den Textabsätzen.
 
-Du kannst es im Admin- oder Main-Admin-Modus öffnen und im Editor ansehen. User können über **Bücher schreiben** eigene neue Bücher anlegen, zunächst als Entwurf speichern und anschließend selbst veröffentlichen.
+Du kannst es im Admin- oder Main-Admin-Modus öffnen und im Editor ansehen, um zu verstehen, wie eigene Bücher aufgebaut werden.
 
 ## Wichtiger Sicherheitshinweis
 
